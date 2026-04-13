@@ -1565,7 +1565,7 @@ function bearlib:MakeWindow(Configs)
                 BackgroundColor3 = Theme["Color Toggle Knob Off"],
                 ZIndex = 5
             }), "Theme")
-            Make("Corner", Toggle, UDim.new(0.5, 0))
+            Make("Corner", Toggle, UDim.new(0.2, 0))
             
             local WaitClick
             local function SetToggle(Val)
